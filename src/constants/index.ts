@@ -1,5 +1,5 @@
 import { Calendar, CheckCircle, CreditCard, MapPin } from "lucide-react";
-import type { Step } from "../types";
+import type { Step } from "@/types";
 
  export const defaultSteps: Step[] = [
     { id: 'postcode', label: 'Postcode', icon: MapPin, completed: true },

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, CardContent, CardFooter } from '../components/ui/card';
-import { Button } from '../components/ui/button';
-import { Badge } from '../components/ui/badge';
+import { Card, CardContent, CardFooter } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
 import { CheckCircle } from 'lucide-react';
-import type { SkipCardProps } from '../types';
+import type { SkipCardProps } from '@/types';
 
 const SkipCard: React.FC<SkipCardProps> = ({ skip, isSelected, onSelect, isDarkMode = false }) => {
   const getCardClassName = () => {

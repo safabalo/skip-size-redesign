@@ -1,7 +1,6 @@
 import React from 'react';
-import Header from './Header';
-import type { PageLayoutProps } from '../../types';
-
+import Header from '@/components/layout/Header';
+import type { PageLayoutProps } from '@/types';
 
 
 const PageLayout: React.FC<PageLayoutProps> = ({ 

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Badge } from '../components/ui/badge';
-import { Card, CardContent } from '../components/ui/card';
-import { Button } from '../components/ui/button';
-import SkipGrid from '../components/SkipGrid';
-import PageLayout from '../components/layout/PageLayout';
-import CheckoutBottomSheet from '../components/CheckoutBottomSheet';
-import Stepper from '../components/Stepper';
-import type { ApiSkipData, SkipOption } from '../types';
+import { Badge } from '@/components/ui/badge';
+import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import SkipGrid from '@/components/SkipGrid';
+import PageLayout from '@/components/layout/PageLayout';
+import CheckoutBottomSheet from '@/components/CheckoutBottomSheet';
+import Stepper from '@/components/Stepper';
+import type { ApiSkipData, SkipOption } from '@/types';
 
 
 const SkipSelectionPage: React.FC = () => {

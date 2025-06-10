@@ -1,5 +1,5 @@
 import React from 'react';
-import SkipCard from './SkipCard';
+import SkipCard from '@/components/SkipCard';
 import type { SkipGridProps } from '../types';
 
 
