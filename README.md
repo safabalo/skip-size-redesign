@@ -4,7 +4,7 @@ A modern, responsive skip hire selection interface built with React, TypeScript,
 
 ## 🚀 Live Demo
 
-[CodeSandbox](https://your-codesandbox-link.com)
+[CodeSandbox](https://codesandbox.io/p/github/safabalo/skip-size-redesign/main?import=true)
 
 ## 📋 Challenge Requirements
 
