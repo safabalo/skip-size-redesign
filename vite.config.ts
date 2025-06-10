@@ -7,4 +7,12 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  resolve: {
+   alias: [
+      {
+        find: '@',
+        replacement: new URL('./src', import.meta.url).pathname,
+      },
+    ],
+  },
 })
